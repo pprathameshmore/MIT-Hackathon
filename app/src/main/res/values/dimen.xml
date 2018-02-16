@@ -9,4 +9,6 @@
 
     <dimen name="text_tittle">50dp</dimen>
 
+    <dimen name="top_margin">5dp</dimen>
+
 </resources>
