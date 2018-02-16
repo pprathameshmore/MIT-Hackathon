@@ -64,6 +64,12 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(startFeedbackActivity);
                         drawerLayout.closeDrawers();
                         break;
+
+                    case R.id.menu_events:
+                        Intent startEventsActivity = new Intent(MainActivity.this,EventNotification.class);
+                        startActivity(startEventsActivity);
+                        drawerLayout.closeDrawers();
+                        break;
                 }
                 return false;
             }
