@@ -27,11 +27,19 @@
     </item>
 
     <item
+        android:id="@+id/menu_events"
+        android:icon="@mipmap/ic_event_note_black_24dp"
+        android:title="Events Notifications">
+        
+    </item>
+
+    <item
         android:id="@+id/menu_feedback"
         android:icon="@mipmap/ic_feedback_black_24dp"
         android:title="Feedback">
 
     </item>
+
 
     <item
         android:id="@+id/menu_share"
