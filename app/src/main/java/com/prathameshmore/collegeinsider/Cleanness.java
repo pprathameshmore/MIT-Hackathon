@@ -35,7 +35,7 @@ public class Cleanness extends AppCompatActivity {
         getEditTextGetRollNo = (EditText) findViewById(R.id.editTextGetRollNo);
         editTextGetReport = (EditText) findViewById(R.id.editTextGetReport);
 
-        databaseReference = FirebaseDatabase.getInstance().getReference("path");
+        databaseReference = FirebaseDatabase.getInstance().getReference("cleanness_data");
 
         btnSubmit = (Button) findViewById(R.id.btnCleanSubmit);
 
@@ -66,7 +66,7 @@ public class Cleanness extends AppCompatActivity {
             CleannessClass cleannessClass = new CleannessClass(name, email,roll,report);
             databaseReference.child(id).setValue(cleannessClass);
 
-            Toast.makeText(this, "Submited", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Submitted", Toast.LENGTH_SHORT).show();
 
             editTextGetName.setText("");
             editTextGetEmail.setText("");

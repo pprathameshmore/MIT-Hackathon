@@ -87,7 +87,13 @@
                     android:id="@+id/editTextGetReport"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Report about cleannness" />
+                    android:gravity="top|left"
+                    android:hint="Report about cleannness"
+                    android:inputType="textMultiLine"
+                    android:lines="8"
+                    android:maxLines="7"
+                    android:minLines="5"
+                    android:scrollbars="vertical"/>
 
 
             </android.support.design.widget.TextInputLayout>
