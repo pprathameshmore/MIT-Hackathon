@@ -3,4 +3,5 @@
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="canteen_order">Canteen Order</string>
+    <string name="clenness_text">Here you can report about cleanness in college </string>
 </resources>
