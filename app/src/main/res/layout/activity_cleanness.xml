@@ -31,9 +31,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/clenness_text"
                 android:layout_marginTop="@dimen/top_margin"
-                android:textAlignment="center"/>
+                android:text="@string/clenness_text"
+                android:textAlignment="center" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -41,6 +41,7 @@
                 android:layout_marginTop="@dimen/top_margin">
 
                 <android.support.design.widget.TextInputEditText
+                    android:id="@+id/editTextGetName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Student name" />
@@ -55,6 +56,21 @@
                 android:layout_marginTop="@dimen/top_margin">
 
                 <android.support.design.widget.TextInputEditText
+                    android:id="@+id/editTextGetEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/top_margin">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/editTextGetRollNo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Roll No." />
@@ -68,6 +84,7 @@
                 android:layout_marginTop="@dimen/top_margin">
 
                 <android.support.design.widget.TextInputEditText
+                    android:id="@+id/editTextGetReport"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Report about cleannness" />
@@ -77,12 +94,13 @@
 
 
             <Button
+                android:id="@+id/btnCleanSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Submit"
                 android:layout_marginTop="@dimen/top_margin"
                 android:background="@color/colorAccent"
-                android:textColor="@color/white"/>
+                android:text="Submit"
+                android:textColor="@color/white" />
 
 
         </LinearLayout>
