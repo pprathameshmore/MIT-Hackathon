@@ -35,6 +35,7 @@
                 android:layout_marginTop="@dimen/top_margin">
 
                 <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edittext_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Student Name" />
@@ -48,6 +49,7 @@
                 android:layout_marginTop="@dimen/top_margin">
 
                 <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edittext_order_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Order Name" />
@@ -61,6 +63,7 @@
                 android:layout_marginTop="@dimen/top_margin">
 
                 <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edittext_quantity"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Order Quantity"
@@ -69,6 +72,7 @@
             </android.support.design.widget.TextInputLayout>
 
             <Button
+                android:id="@+id/buttonOrderSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Submit"
