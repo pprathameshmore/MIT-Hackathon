@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case R.id.menu_lostandfound:
-                        Intent startLostAndFoundActivity = new Intent(MainActivity.this, CanteenOrders.class);
+                        Intent startLostAndFoundActivity = new Intent(MainActivity.this, LostAndFound.class);
                         startActivity(startLostAndFoundActivity);
                         drawerLayout.closeDrawers();
                         break;
