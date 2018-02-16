@@ -2,4 +2,5 @@
     <string name="app_name">College Insider</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="canteen_order">Canteen Order</string>
 </resources>

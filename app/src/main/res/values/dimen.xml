@@ -5,4 +5,8 @@
 
     <dimen name="radius">10dp</dimen>
 
+    <dimen name="liner_layout">5dp</dimen>
+
+    <dimen name="text_tittle">50dp</dimen>
+
 </resources>
