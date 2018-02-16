@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="card_layout_margin">10dp</dimen>
+
+    <dimen name="radius">10dp</dimen>
+
+</resources>
