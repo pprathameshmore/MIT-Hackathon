@@ -60,11 +60,17 @@
                         android:layout_marginTop="@dimen/top_margin">
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/editTextGetReport"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="enter your Feedback"
-                            android:lines="6"
-                            android:inputType="numberDecimal"/>
+                            android:gravity="top|left"
+                            android:hint="Report about cleannness"
+                            android:inputType="textMultiLine"
+                            android:lines="8"
+                            android:maxLines="7"
+                            android:minLines="5"
+                            android:scrollbars="vertical"/>
+
 
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
