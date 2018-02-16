@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@mipmap/ic_home_black_24dp"
+        android:title="Home">
+
+    </item>
+    <item
+        android:id="@+id/menu_clean"
+        android:icon="@mipmap/ic_delete_sweep_black_24dp"
+        android:title="Cleanness">
+
+    </item>
+    <item
+        android:id="@+id/menu_lostandfound"
+        android:icon="@mipmap/ic_error_black_24dp"
+        android:title="Lost and Found">
+
+    </item>
+    <item
+        android:id="@+id/menu_orders"
+        android:icon="@mipmap/ic_restaurant_black_24dp"
+        android:title="Canteen Orders">
+
+    </item>
+
+    <item
+        android:id="@+id/menu_feedback"
+        android:icon="@mipmap/ic_feedback_black_24dp"
+        android:title="Feedback">
+
+    </item>
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@mipmap/ic_share_black_24dp"
+        android:title="Share">
+
+    </item>
+
+</menu>
