@@ -19,7 +19,8 @@
         <activity android:name=".CanteenOrders" />
         <activity android:name=".LostAndFound" />
         <activity android:name=".Cleanness" />
-        <activity android:name=".Feedback"></activity>
+        <activity android:name=".Feedback" />
+        <activity android:name=".EventNotification"></activity>
     </application>
 
 </manifest>
