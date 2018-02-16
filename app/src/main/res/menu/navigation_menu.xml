@@ -30,7 +30,7 @@
         android:id="@+id/menu_events"
         android:icon="@mipmap/ic_event_note_black_24dp"
         android:title="Events Notifications">
-        
+
     </item>
 
     <item
