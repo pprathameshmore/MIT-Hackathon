@@ -70,6 +70,14 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(startEventsActivity);
                         drawerLayout.closeDrawers();
                         break;
+
+                    case R.id.menu_share:
+                        Intent sendIntent = new Intent();
+                        sendIntent.setAction(Intent.ACTION_SEND);
+                        sendIntent.putExtra(Intent.EXTRA_TEXT, "Download College Insider Android app : https://github.com/pprathameshmore/MIT-Hackathon");
+                        sendIntent.setType("text/plain");
+                        startActivity(sendIntent);
+                        drawerLayout.closeDrawers();
                 }
                 return false;
             }
