@@ -20,7 +20,8 @@
         <activity android:name=".LostAndFound" />
         <activity android:name=".Cleanness" />
         <activity android:name=".Feedback" />
-        <activity android:name=".EventNotification"></activity>
+        <activity android:name=".EventNotification" />
+        <activity android:name=".LostAskHere"></activity>
     </application>
 
 </manifest>
