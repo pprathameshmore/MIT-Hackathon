@@ -54,3 +54,7 @@ freeline.py
 freeline/
 freeline_project_description.json
 app/src/main/res/menu/navigation_menu.xml
+app/src/main/res/layout/activity_main.xml
+app/src/main/res/values/strings.xml
+app/src/main/res/values/strings.xml
+app/src/main/res/layout/activity_main.xml
